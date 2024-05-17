@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap w/ Vite</title>
+    <script type="module" src="./js/main.js"></script>
+</head>
+
+<body>
+
+
+    <form class="mt-5 needs-validation" novalidate>
+
+        <!-- form title -->
+        <h1 class="text-center">Form</h1>
+
+        <!-- In this div have all of input -->
+        <div class="main_form row g-3">
+
+            <div class="col-md-6">
+                <label for="validationCustom02" class="form-label">First Name (required)
+                </label>
+                <input type="text" class="form-control" id="validationCustom02" placeholder="Enter your first name"
+                    required>
+                <div class="invalid-feedback">
+                    Please choose a first name.
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <label for="validationCustom02" class="form-label">Last Name (required)
+                </label>
+                <input type="text" class="form-control" placeholder="Enter your last name" id="validationCustom02"
+                    required>
+                <div class="invalid-feedback">
+                    Please choose a last name.
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Phone Number (required)
+                </label>
+                <input type="number" class="form-control" id="inputEmail4" placeholder="Enter your Phone number"
+                    required>
+                <div class="invalid-feedback">
+                    Please choose a phone number.
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <label for="inputGmail4" class="form-label">Last Name (required)
+                </label>
+                <input type="email" class="form-control" placeholder="Enter your gmail" id="inputGmail4" required>
+                <div class="invalid-feedback">
+                    Please enter your gmail.
+                </div>
+            </div>
+
+            <!-- other info -->
+            <div class="col-md-2">
+                <label for="inputZip" class="form-label">Zip Code (required)
+                </label>
+                <input type="text" class="form-control" id="inputZip" required>
+                <div class="invalid-feedback">
+                    Please enter your Zip code.
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <label for="inputCity" class="form-label">Incident Date (required)
+                </label>
+                <input type="datetime-local" class="form-control" id="inputCity" required>
+                <div class="invalid-feedback">
+                    Please choose a Incident Date.
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <label for="inputState" class="form-label">Incident Date</label>
+                <select id="inputState" class="form-select" required>
+                    <option selected disabled value=""> Incident Date</option>
+                    <option> More than 5 years</option>
+                    <option>Less than 5 years</option>
+                </select>
+                <div class="invalid-feedback">
+                    Please choose a Incident Date.
+                </div>
+            </div>
+
+            <!-- more info -->
+            <div class="col-md-2">
+                <label for="inputState" class="form-label">Doctor Treatment</label>
+                <select id="inputState" class="form-select" required>
+                    <option selected disabled value="">Doctor Treatment</option>
+                    <option>Yes</option>
+                    <option>No</option>
+                </select>
+            </div>
+
+            <div class="col-md-2">
+                <label for="inputState" class="form-label">Have Insurance
+                </label>
+                <select id="inputState" class="form-select" required>
+                    <option selected disabled value=""> Have Insurance</option>
+                    <option>I don't Know </option>
+                    <option>Yes</option>
+                    <option>No</option>
+                </select>
+            </div>
+
+            <div class="col-md-2">
+                <label for="inputState" class="form-label">Have Attorney
+                </label>
+                <select id="inputState" class="form-select" required>
+                    <option selected disabled value="">Have Attorney</option>
+                    <option>Yes</option>
+                    <option>No</option>
+                </select>
+            </div>
+
+            <div class="col-md-2">
+                <label for="inputState" class="form-label">Were You At Fault
+                </label>
+                <select id="inputState" class="form-select" required>
+                    <option selected disabled value="">Were You At Fault</option>
+                    <option>Yes</option>
+                    <option>No</option>
+                </select>
+            </div>
+
+            <div class="col-md-2">
+                <label for="inputState" class="form-label">Police Report
+                </label>
+                <select id="inputState" class="form-select" required>
+                    <option selected disabled value="">Police Report</option>
+                    <option>Yes</option>
+                    <option>No</option>
+                </select>
+            </div>
+
+            <div class="col-md-2">
+                <label for="inputState" class="form-label">Primary Injury
+                </label>
+                <select id="inputState" class="form-select" required>
+                    <option selected disabled value="">Primary Injury</option>
+                    <option>Whiplash</option>
+                    <option>Lost limb</option>
+                    <option>Spinal cord injury or paralysis</option>
+                    <option>Loss of life</option>
+                    <option>Other</option>
+                    <option>Broken bones</option>
+                    <option>Broken bones</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+                <label for="inputState" class="form-label">Injury Type
+                </label>
+                <select id="inputState" class="form-select" required>
+                    <option selected disabled value="">Injury Type</option>
+                    <option>Accidental injuries</option>
+                    <option>Sprains</option>
+                    <option>Fractures</option>
+                    <option>Bone</option>
+                    <option>Repetitive strain injury</option>
+                    <option>Slip and falls at work</option>
+                    <option>Spinal cord injuryJo</option>
+                    <option>Joint dislocation</option>
+                    <option>Other</option>
+                </select>
+            </div>
+
+            <!-- area box for description -->
+            <div class="col-md-6">
+                <label for="inputState" class="form-label">Please describe your injuries:
+                </label>
+                <textarea class="form-control" aria-label="With textarea" required></textarea>
+
+            </div>
+            <!-- submit button -->
+            <div class="col-12 text-center">
+                <button type="button" class="btn btn-outline-secondary">Submit</button>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
